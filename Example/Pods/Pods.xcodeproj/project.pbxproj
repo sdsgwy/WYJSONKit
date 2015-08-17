@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044DD52467815B16B0FEAA24C765EF85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51D2847DD31702A8DE1DFBD6E2B3A80 /* Foundation.framework */; };
+		1C813D3FFB9B73D259764CF8AB88DD08 /* WYJSONKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 32807433C522B129148B78323881C791 /* WYJSONKit.bundle */; };
+		43CE86E54D130D88D7FA21B216BB1C3E /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 14906ADA223D19BE66323D751A77FE44 /* JSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BD11BBE5D3784FD08BBBB27067C6317 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C52D8659C38C029D9BD162F8100CF9D /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A38E39206BFD0E5F1D4BEE81A4AAAC0C /* WYJSONKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1AEF782C57C91C61721F4F94B03EBF /* WYJSONKit-dummy.m */; };
+		C85A2F697754F03060AC0B6E9BD0593F /* Pods-WYJSONKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E737CD34E1810D70998E34590EF5A30 /* Pods-WYJSONKit_Example-dummy.m */; };
+		E48CFD849322FE3F6B55CD626BEEBE75 /* Pods-WYJSONKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF89772A1F5315F1478ADD8BA0834ADA /* Pods-WYJSONKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6C3D43F8441AD097FCD31CC64A3A86E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51D2847DD31702A8DE1DFBD6E2B3A80 /* Foundation.framework */; };
+		F8DB3418B94A05D71188CBD4139B1CF2 /* WYJSONKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DAB91A079F73C9A6FA116A1FB6CA4B7 /* WYJSONKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99F871ACCCF35167BC50541D0A2826F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3EE0E575491A2F199936CA4F5DBB272;
+			remoteInfo = "WYJSONKit-WYJSONKit";
+		};
+		B062E27032C8A60BAFBE65920C97FA15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D995B71886690D677E4FCE61F94D0EA9;
+			remoteInfo = WYJSONKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C52D8659C38C029D9BD162F8100CF9D /* JSONKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		0E737CD34E1810D70998E34590EF5A30 /* Pods-WYJSONKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYJSONKit_Example-dummy.m"; sourceTree = "<group>"; };
+		14906ADA223D19BE66323D751A77FE44 /* JSONKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		2989E6305D29364FCAA84B7E71B3A28F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F8CE4754CE448DC3E1552F701495B08 /* WYJSONKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WYJSONKit.modulemap; sourceTree = "<group>"; };
+		32807433C522B129148B78323881C791 /* WYJSONKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYJSONKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6D297A918C8C20129A4DC90D2FF0C1 /* Pods-WYJSONKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WYJSONKit_Example.modulemap"; sourceTree = "<group>"; };
+		61808B7C446EBE57E24CCEDAFCE8D5E2 /* Pods-WYJSONKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYJSONKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6DAB91A079F73C9A6FA116A1FB6CA4B7 /* WYJSONKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYJSONKit-umbrella.h"; sourceTree = "<group>"; };
+		733E70804D53E364B7B068756DB02E4B /* Pods-WYJSONKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYJSONKit_Example-resources.sh"; sourceTree = "<group>"; };
+		769F554B72AD8894856AF05F1D32FF1A /* Pods-WYJSONKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYJSONKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8A1AEF782C57C91C61721F4F94B03EBF /* WYJSONKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYJSONKit-dummy.m"; sourceTree = "<group>"; };
+		90680FC52E9F1A4F7C77754E0D1BB0DF /* Pods-WYJSONKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYJSONKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		982840D737374569C3F73740C41BE389 /* WYJSONKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WYJSONKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		990A04D2F025CF0F711CB2FC95D95BF7 /* WYJSONKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYJSONKit.xcconfig; sourceTree = "<group>"; };
+		AF89772A1F5315F1478ADD8BA0834ADA /* Pods-WYJSONKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYJSONKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C137983A2696673CCB9C4AB9D07AF0C1 /* WYJSONKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYJSONKit-prefix.pch"; sourceTree = "<group>"; };
+		D51D2847DD31702A8DE1DFBD6E2B3A80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D777F17EC0294C1BD7DD7CF23EC45501 /* Pods-WYJSONKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYJSONKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DF7DCEAED76ABC67E9430AE3FB608AF1 /* Pods-WYJSONKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYJSONKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E022C5493554ED2C2773E66BF2865F7B /* WYJSONKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "WYJSONKit-Private.xcconfig"; sourceTree = "<group>"; };
+		EA3580817C3DCD118EDA6E39D1815FE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1800BBF805F25B4EF1168706D2A50CC /* Pods_WYJSONKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYJSONKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38C0865F03ADD011951ABB316D83D511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF9F0A711FC44682E62AE417B9445C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C3D43F8441AD097FCD31CC64A3A86E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DA246C1C7ED7A775E8EC98495F5A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044DD52467815B16B0FEAA24C765EF85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0261A07F330EC1BB624873612D76585C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CBB2D6A8431AA626046FEC2686395E6A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		283BDAC147286E249153A1ECF7D093D4 /* WYJSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				0261A07F330EC1BB624873612D76585C /* Pod */,
+				DCDCFF2129E2754FB62B03B0B052A318 /* Support Files */,
+			);
+			name = WYJSONKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4F94550E1E4438170F568947224BC66C /* Pods-WYJSONKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EA3580817C3DCD118EDA6E39D1815FE4 /* Info.plist */,
+				5D6D297A918C8C20129A4DC90D2FF0C1 /* Pods-WYJSONKit_Example.modulemap */,
+				61808B7C446EBE57E24CCEDAFCE8D5E2 /* Pods-WYJSONKit_Example-acknowledgements.markdown */,
+				DF7DCEAED76ABC67E9430AE3FB608AF1 /* Pods-WYJSONKit_Example-acknowledgements.plist */,
+				0E737CD34E1810D70998E34590EF5A30 /* Pods-WYJSONKit_Example-dummy.m */,
+				769F554B72AD8894856AF05F1D32FF1A /* Pods-WYJSONKit_Example-frameworks.sh */,
+				733E70804D53E364B7B068756DB02E4B /* Pods-WYJSONKit_Example-resources.sh */,
+				AF89772A1F5315F1478ADD8BA0834ADA /* Pods-WYJSONKit_Example-umbrella.h */,
+				D777F17EC0294C1BD7DD7CF23EC45501 /* Pods-WYJSONKit_Example.debug.xcconfig */,
+				90680FC52E9F1A4F7C77754E0D1BB0DF /* Pods-WYJSONKit_Example.release.xcconfig */,
+			);
+			name = "Pods-WYJSONKit_Example";
+			path = "Target Support Files/Pods-WYJSONKit_Example";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D51D2847DD31702A8DE1DFBD6E2B3A80 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				A964990AEDA90583EC08441BD77A8E58 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D58880D9BC915A47AC983F40CB407243 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A964990AEDA90583EC08441BD77A8E58 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				283BDAC147286E249153A1ECF7D093D4 /* WYJSONKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBB2D6A8431AA626046FEC2686395E6A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				14906ADA223D19BE66323D751A77FE44 /* JSONKit.h */,
+				0C52D8659C38C029D9BD162F8100CF9D /* JSONKit.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1800BBF805F25B4EF1168706D2A50CC /* Pods_WYJSONKit_Example.framework */,
+				32807433C522B129148B78323881C791 /* WYJSONKit.bundle */,
+				982840D737374569C3F73740C41BE389 /* WYJSONKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D58880D9BC915A47AC983F40CB407243 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F94550E1E4438170F568947224BC66C /* Pods-WYJSONKit_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DCDCFF2129E2754FB62B03B0B052A318 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2989E6305D29364FCAA84B7E71B3A28F /* Info.plist */,
+				2F8CE4754CE448DC3E1552F701495B08 /* WYJSONKit.modulemap */,
+				990A04D2F025CF0F711CB2FC95D95BF7 /* WYJSONKit.xcconfig */,
+				E022C5493554ED2C2773E66BF2865F7B /* WYJSONKit-Private.xcconfig */,
+				8A1AEF782C57C91C61721F4F94B03EBF /* WYJSONKit-dummy.m */,
+				C137983A2696673CCB9C4AB9D07AF0C1 /* WYJSONKit-prefix.pch */,
+				6DAB91A079F73C9A6FA116A1FB6CA4B7 /* WYJSONKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WYJSONKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36505487FA8BEB1B4C6A72E29EA54877 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48CFD849322FE3F6B55CD626BEEBE75 /* Pods-WYJSONKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5369A9F4A97CAF7F5744DD03ADBD1373 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CE86E54D130D88D7FA21B216BB1C3E /* JSONKit.h in Headers */,
+				F8DB3418B94A05D71188CBD4139B1CF2 /* WYJSONKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B3EE0E575491A2F199936CA4F5DBB272 /* WYJSONKit-WYJSONKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE4D24CC71A8789E88411A942E5F972 /* Build configuration list for PBXNativeTarget "WYJSONKit-WYJSONKit" */;
+			buildPhases = (
+				A7356EBE97C803C9065B9CF5BC804B03 /* Sources */,
+				38C0865F03ADD011951ABB316D83D511 /* Frameworks */,
+				20C927B74E321A491D29462F97B9C29C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WYJSONKit-WYJSONKit";
+			productName = "WYJSONKit-WYJSONKit";
+			productReference = 32807433C522B129148B78323881C791 /* WYJSONKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D934BE06D97579998EDEBDCAEBF83796 /* Pods-WYJSONKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4420A084BD46261094D13F68C71BCE42 /* Build configuration list for PBXNativeTarget "Pods-WYJSONKit_Example" */;
+			buildPhases = (
+				FD35ACA24C0A9FF3F9348509F6511BF3 /* Sources */,
+				F6DA246C1C7ED7A775E8EC98495F5A6E /* Frameworks */,
+				36505487FA8BEB1B4C6A72E29EA54877 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A30ED4EA0994C9511B1BB6FA4F0D9341 /* PBXTargetDependency */,
+			);
+			name = "Pods-WYJSONKit_Example";
+			productName = "Pods-WYJSONKit_Example";
+			productReference = F1800BBF805F25B4EF1168706D2A50CC /* Pods_WYJSONKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D995B71886690D677E4FCE61F94D0EA9 /* WYJSONKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30341E807B4A1B34DAB86A18E44AA9D8 /* Build configuration list for PBXNativeTarget "WYJSONKit" */;
+			buildPhases = (
+				7EF39CD720CFC45B048B167E074746A9 /* Sources */,
+				ABF9F0A711FC44682E62AE417B9445C4 /* Frameworks */,
+				C836F3D8841BB45A0327632D3962201A /* Resources */,
+				5369A9F4A97CAF7F5744DD03ADBD1373 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6C2EE6112792185998B8BF789838BE6 /* PBXTargetDependency */,
+			);
+			name = WYJSONKit;
+			productName = WYJSONKit;
+			productReference = 982840D737374569C3F73740C41BE389 /* WYJSONKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D934BE06D97579998EDEBDCAEBF83796 /* Pods-WYJSONKit_Example */,
+				D995B71886690D677E4FCE61F94D0EA9 /* WYJSONKit */,
+				B3EE0E575491A2F199936CA4F5DBB272 /* WYJSONKit-WYJSONKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20C927B74E321A491D29462F97B9C29C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C836F3D8841BB45A0327632D3962201A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C813D3FFB9B73D259764CF8AB88DD08 /* WYJSONKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EF39CD720CFC45B048B167E074746A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD11BBE5D3784FD08BBBB27067C6317 /* JSONKit.m in Sources */,
+				A38E39206BFD0E5F1D4BEE81A4AAAC0C /* WYJSONKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7356EBE97C803C9065B9CF5BC804B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD35ACA24C0A9FF3F9348509F6511BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85A2F697754F03060AC0B6E9BD0593F /* Pods-WYJSONKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A30ED4EA0994C9511B1BB6FA4F0D9341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WYJSONKit;
+			target = D995B71886690D677E4FCE61F94D0EA9 /* WYJSONKit */;
+			targetProxy = B062E27032C8A60BAFBE65920C97FA15 /* PBXContainerItemProxy */;
+		};
+		F6C2EE6112792185998B8BF789838BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WYJSONKit-WYJSONKit";
+			target = B3EE0E575491A2F199936CA4F5DBB272 /* WYJSONKit-WYJSONKit */;
+			targetProxy = 99F871ACCCF35167BC50541D0A2826F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		218A426E17378BE3F0F014EC7E40B699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E022C5493554ED2C2773E66BF2865F7B /* WYJSONKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = WYJSONKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		236F48BA8D2D07E3543CEA2988581E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E022C5493554ED2C2773E66BF2865F7B /* WYJSONKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = WYJSONKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		45AC51DADA464A674641AE7FE7048406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E022C5493554ED2C2773E66BF2865F7B /* WYJSONKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.0.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.0.1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WYJSONKit/WYJSONKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYJSONKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WYJSONKit/WYJSONKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WYJSONKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D91D7FF89B53E01EB0CBA0E2F496144E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90680FC52E9F1A4F7C77754E0D1BB0DF /* Pods-WYJSONKit_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WYJSONKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-WYJSONKit_Example/Pods-WYJSONKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WYJSONKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F204A5731D78D8DE8AC79E87A8960816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E022C5493554ED2C2773E66BF2865F7B /* WYJSONKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.0.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.0.1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WYJSONKit/WYJSONKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYJSONKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WYJSONKit/WYJSONKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WYJSONKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3A8B1A2672C3E01D38251832D426192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D777F17EC0294C1BD7DD7CF23EC45501 /* Pods-WYJSONKit_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WYJSONKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-WYJSONKit_Example/Pods-WYJSONKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WYJSONKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30341E807B4A1B34DAB86A18E44AA9D8 /* Build configuration list for PBXNativeTarget "WYJSONKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F204A5731D78D8DE8AC79E87A8960816 /* Debug */,
+				45AC51DADA464A674641AE7FE7048406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4420A084BD46261094D13F68C71BCE42 /* Build configuration list for PBXNativeTarget "Pods-WYJSONKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A8B1A2672C3E01D38251832D426192 /* Debug */,
+				D91D7FF89B53E01EB0CBA0E2F496144E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE4D24CC71A8789E88411A942E5F972 /* Build configuration list for PBXNativeTarget "WYJSONKit-WYJSONKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236F48BA8D2D07E3543CEA2988581E4A /* Debug */,
+				218A426E17378BE3F0F014EC7E40B699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

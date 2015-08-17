@@ -1,0 +1,14 @@
+PODS:
+  - WYJSONKit (0.0.1)
+
+DEPENDENCIES:
+  - WYJSONKit (from `../`)
+
+EXTERNAL SOURCES:
+  WYJSONKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WYJSONKit: 0bb366dfb1f2af312ebdfa3724e3771fd0594943
+
+COCOAPODS: 0.38.2
