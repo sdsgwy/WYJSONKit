@@ -26,4 +26,4 @@ sdsgwy, sunshineyangzai@gmail.com
 
 ## License
 
-WYJSONKit is available under the MIT license. See the LICENSE file for more info.
+WYJSONKit is fork  from JSONKit,only used for my project.
